@@ -1,40 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,700');
+@import './settings/settings.css';
+@import './generic/generic.css';
+@import './objects/objects.css';
+@import './components/components.css';
 
-:root {
-    --bodyBackground: #DDD;
-}
 
-* {
-    box-sizing: content-box;
-}
-
-body {
-    background: var(--bodyBackground);
-    font-family: 'PT Serif', serif;
-    padding: 50px 5vw;
-}
-
-.card {
-    background: white;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 0 4px rgba(0,0,0,.2);
-    max-width: 600px;
-    margin: 0 auto;
-    
-    animation: 300ms slide-in 1200ms both ease-in-out;
-    .title {
-        padding: 1em;
-    }
-}
-
-@keyframes slide-in {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
