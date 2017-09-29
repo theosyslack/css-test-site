@@ -18,12 +18,13 @@
     }
 
     
-    
     a {
         text-decoration: none;
         padding: 1em 1em .25em 1em;
         line-height: 2;
         font-weight: 600;
+        color: black;
+        
         &:visited {
             color: inherit;
         }

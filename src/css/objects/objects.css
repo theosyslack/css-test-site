@@ -1,4 +1,7 @@
 @import './Banner';
+@import './Content';
+@import './Header';
 @import './Hero';
 @import './Logo';
+@import './Main';
 @import './Wrapper';

@@ -1,6 +1,6 @@
 :root {
     --bodyBackground: #DDD;
     --contentBackground: white;
-    
+    --dropshadow: 0px 7px 10px -7px rgba(0,0,0,0.3);
     --borderRadius: 3px;
 }
