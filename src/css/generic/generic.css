@@ -1,0 +1,16 @@
+@import './Animations';
+@import './Typography';
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background: var(--bodyBackground);
+    font-family: 'PT Serif', serif;
+    padding: 50px 5vw;
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}

@@ -1,0 +1,25 @@
+.slide-up {
+    animation: slide-up 200ms backwards ease-in-out;
+}
+
+@for $i from 1 to 30 {
+    .animation-delay-$(i)00 {
+        animation-delay: $(i)00ms;
+    }
+
+    .animation-duration-$(i)00 {
+        animation-duration: $(i)00ms;
+    }
+}
+
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

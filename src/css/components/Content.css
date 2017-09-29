@@ -1,0 +1,9 @@
+.Content {
+    background: var(--contentBackground);
+    border-radius: 0 0 3px 3px;
+    z-index: 100;
+
+    &--padding {
+        padding: 4em 2em;
+    }
+}

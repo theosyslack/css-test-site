@@ -1,0 +1,17 @@
+.Wrapper {
+    display: flex;
+
+    .Wrapper__item--last {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    @media(max-width: 425px) {
+        flex-direction: column;
+
+        .Wrapper__item--last {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
