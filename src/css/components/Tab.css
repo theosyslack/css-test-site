@@ -5,7 +5,8 @@
     background: #CCC;
     z-index: 0;
     margin-right: .25em;
-
+    font-family: 'Open Sans', san-serif;
+    
     &:hover {
         background: #BBB;
     }
