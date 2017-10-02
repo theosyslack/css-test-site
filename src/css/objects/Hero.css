@@ -1,5 +1,6 @@
 .Hero {
     transition: font 200ms ease-in-out;
     font-size: 3em;
+    color: white;
     margin: 0 0 .2em 0;
 }

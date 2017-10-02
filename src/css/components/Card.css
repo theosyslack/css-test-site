@@ -5,6 +5,7 @@
     border: 2px black solid;
     box-shadow: var(--dropshadow);
     // padding: 1em;
+    min-width: 200px;
     margin: 1em;
 
     &__header {

@@ -4,11 +4,13 @@
     position: sticky;
     top: -1px;
     z-index: 2;
-    background: var(--bodyBackground);
 
     &--is-sticky {
         transition: opacity 200ms 100ms ease-in-out;
-        opacity: 0;
+        background: var(--bodyDarkBackground);
+        box-shadow: var(--dropshadow);
+        
+        opacity: .05;
         &:hover {
             opacity: 1;
         }

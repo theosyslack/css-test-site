@@ -1,8 +1,12 @@
 .Wrapper {
     display: flex;
-
+    flex-wrap: nowrap;
     &--space-between {
         justify-content: space-between;
+    }
+
+    &--allow-wrap {
+        flex-wrap: wrap;
     }
 
     .Wrapper__item--last {
