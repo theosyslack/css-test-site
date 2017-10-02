@@ -7,8 +7,7 @@
 
 
     &--is-sticky {
-
-        transition: opacity 200ms 500ms ease-in-out;
+        transition: opacity 200ms 100ms ease-in-out;
         opacity: 0;
         &:hover {
             opacity: 1;
