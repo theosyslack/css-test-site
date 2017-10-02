@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
 
     window.addEventListener('scroll', function(e){
         let headerBoundaries = header.getBoundingClientRect();
-        console.log('scroll')
+
         if (headerBoundaries.top === -1){
             header.classList.add('Header--is-sticky');
             body.classList.add('Body--dark-mode');
