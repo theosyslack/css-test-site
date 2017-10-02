@@ -10,9 +10,25 @@
     &__header {
         padding: 0 .5em;
         border-bottom: 2px black solid;
+        text-align: center;
     }
+
+      &__icon {
+            height: 100px;
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+            margin: -3em auto;
+            padding: 0 0 3em 0;
+        }
 
     &__body {
         padding: 1em;
+    }
+
+    &--with-icon {
+        overflow:visible;
+
+
     }
 }
