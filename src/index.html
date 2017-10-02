@@ -1,57 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>CSS Test Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-    <header class="Header">
+
+<body class="preload">
+    <div class="Body">
         <h1 class="Hero">Testing Inc</h1>
-        <div class="Wrapper">
-            <div class="Tab Tab--active">
-                <a href="#">Home</a>
-            </div>
-            <div class="Tab">
-                <a href="#">Contact</a>
-            </div>
-            <div class="Tab">
-                <a href="#">About Us</a>
-            </div>
-            <div class="Tab Wrapper__item--last">
-                <a href="#">Help</a>
-            </div>
-        </div>
-    </header>
-    <main class="Main">
-        <div class="Content">
-            <div class="Banner">
-                <img class="Banner__image" src="https://unsplash.it/2880/800" alt="">
-                <div class="Banner__screen">
-                    <h2>Purdy.</h2>
-                    <p>this is a pretty banner.</p>
+        <header class="Header">
+            <div class="Wrapper">
+                <div class="Tab Tab--active">
+                    <a href="#">Home</a>
+                </div>
+                <div class="Tab">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="Tab">
+                    <a href="#">About Us</a>
+                </div>
+                <div class="Tab Wrapper__item--last">
+                    <a href="#">Help</a>
                 </div>
             </div>
-            <div class="Content--padding">
-                <div class="Wrapper Wrapper--space-between">
-                    <div class="Wrapper__item col-1">
-                        <div class="Card">
-                            Hi
+        </header>
+        <main class="Main">
+            <div class="Content">
+                <div class="Content--padding">
+                    <div class="Wrapper Wrapper--space-between">
+                        <div class="Wrapper__item col-1">
+                            <div class="Card">
+                                <h2 class="Card__header">Classy</h2>
+                                <div class="Card__body">
+                                    <p>
+                                        Testing
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="Wrapper__item col-1">
-                        <div class="Card">
-                            Hi
+                        <div class="Wrapper__item col-1">
+                            <div class="Card">
+                                <h3>Sophisticated</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="Wrapper__item col-1">
-                        <div class="Card">
-                            Hi
+                        <div class="Wrapper__item col-1">
+                            <div class="Card">
+                                <h3>Dignified</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="Banner">
+                    <img class="Banner__image" src="https://unsplash.it/2880/800" alt="Random Image from Unsplash">
+                    <div class="Banner__screen slide-up animation-duration-500 animation-delay-700">
+                        <h4>This copy is just so dang readable!</h4>
+                    </div>
+                </div>
+                <div class="Content--padding">
+                        <div class="Wrapper Wrapper--space-between">
+                            <div class="Wrapper__item col-1">
+                                <div class="Card">
+                                    <h2 class="Card__header">Classy</h2>
+                                    <div class="Card__body">
+                                        <p>
+                                            Testing
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Wrapper__item col-1">
+                                <div class="Card">
+                                    <h3>Sophisticated</h3>
+                                </div>
+                            </div>
+                            <div class="Wrapper__item col-1">
+                                <div class="Card">
+                                    <h3>Dignified</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
+
 </html>

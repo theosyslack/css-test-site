@@ -1,20 +1,24 @@
 .Banner {
     position: relative;
     overflow: hidden;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--dropshadowIntense);
+    margin: 0 -1em; 
 
     &__image {
         width: 100%;
+        margin-bottom: -3em;
     }
     &__screen {
         position: absolute;
         display: inline-block;
-        bottom: 1em;
-        left: -2em;
+        bottom: 5px;
+        left: 0;
         min-width: 40%;
         width: 90%;
-        background: rgba(0,0,0,.3);
+        background: linear-gradient(40deg, rgba(0,0,0,.6) 50%, rgba(0,0,0,.1) 70%,  rgba(0,0,0,0));
         color: white;
-        padding: 2em 3em;
+        padding: 1em;
 
     }
 }
