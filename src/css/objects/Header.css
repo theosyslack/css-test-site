@@ -4,16 +4,15 @@
     position: sticky;
     top: -1px;
     z-index: 2;
-    background: var(--bodyBackground);
+
 
     &--is-sticky {
-        background: var(--bodyDarkBackground);
-        
-        .Tab:not(.Tab--active){
-            transition: opacity 200ms ease-in-out;
-            opacity: .1;
-        }
 
+        transition: opacity 200ms 500ms ease-in-out;
+        opacity: 0;
+        &:hover {
+            opacity: 1;
+        }
     }
 
 }
