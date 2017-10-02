@@ -1,11 +1,10 @@
 import './css/main.css';
 
-
 window.addEventListener('load', function(){
     document.body.classList.remove('preload');
     let header = document.querySelector('.Header');
     let body = document.querySelector('.Body');
-    
+
     window.addEventListener('scroll', function(e){
         let headerBoundaries = header.getBoundingClientRect();
         console.log('scroll')
