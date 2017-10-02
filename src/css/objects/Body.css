@@ -1,0 +1,12 @@
+.Body {
+    background: var(--bodyBackground);
+    padding: 50px 5vw;
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    transition: background 200ms ease-in-out;
+    
+    &--dark-mode {
+        background: var(--bodyDarkBackground);
+    }
+}
