@@ -1,0 +1,7 @@
+.Image {
+    &--aside {
+        margin: 0 4em 0 -4em;
+        position: sticky;
+        top: 1em;
+    }
+}

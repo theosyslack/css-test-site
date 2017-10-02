@@ -13,3 +13,8 @@ body {
         transition: none !important;
     }
 }
+
+hr {
+    margin: 3em 0;
+    border-color: var(--bodyDarkBackground);
+}
